@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+:root {
+  --light-blue: #31bef4;
+  --normal-blue: #3e90ca;
+  --white: #fff;
+  --grey-dark: #444;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* 
+    var(--light-blue)
+    var(--normal-blue)
+    var(--white) 
+    var(--grey-dark)
+     */
+
+img {
+  border-radius: 0.5rem;
+  border-radius: 10%;
+}
+
+.white-box {
+  box-shadow: 0 1px 4px 0 rgb(0 0 0 / 10%) !important;
+}
+.match-card-left {
+  padding: 20px;
+  position: relative;
+}
+.match-card-left,
+.match-card-box {
+  box-shadow: 0 1px 4px 0 rgb(0 0 0 / 10%) !important;
+  background: #fff;
+  height: 150px;
+}
+
+.match-card-box {
+  padding: 20px;
+}
+
+#match_table img {
+  width: 60px;
+  height: 60px;
+}
+
+.page-title {
+  font-size: 1.75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-right: 15px;
+}
+.match-card-left img {
+  box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.288);
+}
+.match-card-box h3 {
+  font-size: 3.25rem;
+  font-weight: 500;
+}
+.match-card-box h4 {
+  font-size: 2rem;
+  color: #6e6b6b;
+}
+.match-card-box p {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+
+#accept-button {
+  padding: 15px;
+  border-radius: 70%;
+  transition: all 0.3s ease 0s;
+  opacity: 1;
+  box-shadow: 0px 5px 15px rgba(8, 8, 8, 0.185);
+  cursor: pointer;
+}
+
+#refuse-button {
+  padding: 15px;
+  border-radius: 70%;
+  transition: all 0.3s ease 0s !important;
+  opacity: 1;
+  box-shadow: 0px 5px 15px rgba(8, 8, 8, 0.185);
+  cursor: pointer;
+}
+
+#grid-view,
+#list-view {
+  transition: all 0.3s ease 0s !important;
+}
+
+#accept-button:hover,
+#refuse-button:hover,
+#grid-view:hover,
+#list-view:hover {
+  background-color: #fff !important;
+  box-shadow: 0px 10px 20px #3e90ca !important;
+  transform: translateY(-7px);
+  color: #3e90ca !important;
+}
+
+#match_table td {
+  font-size: 1.5rem;
+}
+#match_table th {
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+.match-info1 {
+  border-radius: 0rem !important;
+}
